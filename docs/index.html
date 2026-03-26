@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>GeoPaper Daily</title>
+    <title>今日文献推荐｜网站版</title>
     <style>
       :root {
         --bg: #f4f6fb;
@@ -798,7 +798,7 @@
               </div>
               <div class="summary"><strong>精读要点</strong><p>${item.summary || "-"}</p></div>
               <div class="fit"><strong>与你研究相关</strong><p>${item.fit || "-"}</p></div>
-              <div class="cta"><a href="${item.link || "#"}">Open DOI</a></div>
+              <div class="cta"><a href="${item.link || "#"}" target="_blank" rel="noopener noreferrer">Open DOI</a></div>
             </article>
           `;
         }).join("");
