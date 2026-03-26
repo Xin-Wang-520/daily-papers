@@ -1,0 +1,195 @@
+{
+  "generatedAt": "2026-03-26T08:54:01.117Z",
+  "title": "今天值得读的 9 篇地学文献",
+  "lead": "按“喜马拉雅 coupling、地震周期/俯冲带加载、同震 InSAR、震后与震间形变、深度学习 + InSAR、地震学、地质学”组织的每日卡片数据。",
+  "stats": [
+    {
+      "value": "2",
+      "label": "喜马拉雅/周期机制"
+    },
+    {
+      "value": "1",
+      "label": "同震 InSAR"
+    },
+    {
+      "value": "2",
+      "label": "震后/震间"
+    },
+    {
+      "value": "2",
+      "label": "深度学习 + InSAR"
+    },
+    {
+      "value": "1",
+      "label": "地震学"
+    },
+    {
+      "value": "1",
+      "label": "地质学"
+    }
+  ],
+  "rules": [
+    "喜马拉雅 coupling 或周期机制 2 篇",
+    "全球有代表性的同震 InSAR 1 篇",
+    "震后形变 1 篇",
+    "震间速度场 / 时序 InSAR 1 篇",
+    "深度学习 + InSAR 2 篇",
+    "地震学好文章 1 篇",
+    "地质学 / 活动构造好文章 1 篇"
+  ],
+  "items": [
+    {
+      "index": "01",
+      "tags": [],
+      "topic": {
+        "primary": "喜马拉雅",
+        "secondary": "耦合"
+      },
+      "priority": "主推",
+      "title": "Interseismic fault kinematics along the Kumaun Himalaya: Insights from InSAR and GPS based observations",
+      "authors": "Himanshu Verma, Sumanta Pasari, Sharmila Devi, et al.",
+      "venue": "Journal of Geodynamics",
+      "date": "2026年03月",
+      "summary": "基于 InSAR 与 GPS 速度场反演 Kumaun Himalaya 的锁固深度和滑移亏损，是非常标准的喜马拉雅 coupling 文章。",
+      "fit": "适合做喜马拉雅 megathrust 锁固、滑移亏损和地震危险性主线的基石文献。",
+      "notes": "优先保留在每天前两篇。",
+      "link": "https://doi.org/10.1016/j.jog.2025.102133"
+    },
+    {
+      "index": "02",
+      "tags": [],
+      "topic": {
+        "primary": "地震周期",
+        "secondary": "俯冲带"
+      },
+      "priority": "主推",
+      "title": "Interseismic secondary zone of subsidence during earthquake cycles in subduction zones",
+      "authors": "Haipeng Luo, Kelin Wang, Lujia Feng, et al.",
+      "venue": "Nature Geoscience",
+      "date": "2025年08月25日",
+      "summary": "从全球俯冲带观测和模拟识别震间阶段的次级沉降带，强调震间垂向形变在地震周期中的作用。",
+      "fit": "虽然不局限于喜马拉雅，但对理解 coupling 与长期加载机制非常关键。",
+      "notes": "适合作为第二篇机制类文章。",
+      "link": "https://doi.org/10.1038/s41561-025-01778-1"
+    },
+    {
+      "index": "03",
+      "tags": [],
+      "topic": {
+        "primary": "同震形变",
+        "secondary": "联合反演"
+      },
+      "priority": "主推",
+      "title": "Joint inversion of GPS, InSAR and teleseismic data sets for the rupture process of the 2015 Gorkha, Nepal, earthquake using a generalized ABIC method",
+      "authors": "Lei Yi, Caijun Xu, Xu Zhang, et al.",
+      "venue": "Journal of Asian Earth Sciences",
+      "date": "2017年10月15日",
+      "summary": "GPS、InSAR 与远震 P 波一体化联合反演 Gorkha 同震破裂，是方法上很完整的同震模板。",
+      "fit": "很适合作为“地震学 + 大地测量学 + InSAR 一起用”的参考范式。",
+      "notes": "同震 InSAR 默认放第 3 篇。",
+      "link": "https://doi.org/10.1016/j.jseaes.2017.08.029"
+    },
+    {
+      "index": "04",
+      "tags": [],
+      "topic": {
+        "primary": "震后形变",
+        "secondary": "时间序列"
+      },
+      "priority": "推荐",
+      "title": "Co-existing fast and slow afterslip processes following the 2015 Gorkha (MW7.8) earthquake resolved by full time-series inversion",
+      "authors": "Zeyan Zhao, Han Yue, Jian Zhang, et al.",
+      "venue": "Earthquake Science",
+      "date": "2025年12月",
+      "summary": "利用 GNSS 与 InSAR 时间序列识别 Gorkha 震后快慢两类 afterslip，是很好的震后时序反演例子。",
+      "fit": "提醒你做震后时不能只看一个 postseismic 位移场，而应进入完整时序框架。",
+      "notes": "第 4 篇优先放震后形变。",
+      "link": "https://doi.org/10.1016/j.eqs.2025.08.004"
+    },
+    {
+      "index": "05",
+      "tags": [],
+      "topic": {
+        "primary": "速度场",
+        "secondary": "应变率"
+      },
+      "priority": "推荐",
+      "title": "Deformation, strains and velocities for the Alpine-Himalayan Belt from trans-continental Sentinel-1 InSAR & GNSS",
+      "authors": "John R. Elliott, Jin Fang, Milan Lazecký, et al.",
+      "venue": "Remote Sensing of Environment",
+      "date": "2026年05月15日",
+      "summary": "整个 Alpine-Himalayan Belt 的 3D 速度场和应变率场，适合作为长期背景场文献。",
+      "fit": "让同震、震后和断层几何解释都回到长期速度场和应变背景里。",
+      "notes": "第 5 篇优先放震间速度场或时序 InSAR。",
+      "link": "https://doi.org/10.1016/j.rse.2026.115320"
+    },
+    {
+      "index": "06",
+      "tags": [],
+      "topic": {
+        "primary": "深度学习",
+        "secondary": "前处理"
+      },
+      "priority": "固定",
+      "title": "TropoDeep: a deep learning-based model for InSAR tropospheric correction on large-scale interferograms using GNSS and WRF outputs",
+      "authors": "Saeid Haji-Aghajany, Melika Tasan, Saeed Izanlou, et al.",
+      "venue": "Journal of Geodesy",
+      "date": "2025年09月20日",
+      "summary": "深度学习版 InSAR 对流层改正方法，直接命中前处理质量提升问题。",
+      "fit": "适合先改善观测场，再进入滑移反演和时序分析。",
+      "notes": "深度学习 + InSAR 固定占第 6 篇。",
+      "link": "https://doi.org/10.1007/s00190-025-02001-0"
+    },
+    {
+      "index": "07",
+      "tags": [],
+      "topic": {
+        "primary": "深度学习",
+        "secondary": "源参数反演"
+      },
+      "priority": "固定",
+      "title": "Inversion of seismic source parameters from satellite InSAR data based on deep learning",
+      "authors": "Xiaotao Jiang, Yong Zhang, Yunjun Zhang, et al.",
+      "venue": "Tectonophysics",
+      "date": "2021年12月20日",
+      "summary": "尝试直接用深度学习从 InSAR 干涉图反演地震源参数，比前处理更接近地震反演本体。",
+      "fit": "适合作为“深度学习进入同震源参数反演”的方法代表。",
+      "notes": "深度学习 + InSAR 固定占第 7 篇。",
+      "link": "https://doi.org/10.1016/j.tecto.2021.229140"
+    },
+    {
+      "index": "08",
+      "tags": [],
+      "topic": {
+        "primary": "地震学",
+        "secondary": "破裂动力学"
+      },
+      "priority": "补充",
+      "title": "High normal stress promoted supershear rupture during the 2023 Mw 7.8 Kahramanmaraş earthquake",
+      "authors": "Jing Chen, Mijian Xu, Yiming Bai, et al.",
+      "venue": "Nature Geoscience",
+      "date": "2026年01月06日",
+      "summary": "用地震层析成像把 2023 土耳其 Mw 7.8 地震不同断段的破裂速度差异，与断层结构和应力加载差异直接联系起来，是很强的地震学文章。",
+      "fit": "适合作为纯地震学补位文献，帮你从破裂速度、结构控制和应力积累角度理解大震断裂分段。",
+      "notes": "新增第 8 篇，固定作为地震学好文章。",
+      "link": "https://doi.org/10.1038/s41561-025-01893-z"
+    },
+    {
+      "index": "09",
+      "tags": [],
+      "topic": {
+        "primary": "地质学",
+        "secondary": "活动构造"
+      },
+      "priority": "补充",
+      "title": "Active tectonics in the Himalayan foreland due to an advancing detachment plane",
+      "authors": "R.S. Chatterjee, Somalin Nath, Harsh Kumar, et al.",
+      "venue": "Tectonophysics",
+      "date": "2026年03月26日",
+      "summary": "整合 morphotectonics、GPR、磁电和 advanced DInSAR，讨论喜马拉雅前陆 proto-thrust 与 advancing detachment plane 的关系，是偏地质与活动构造的综合研究。",
+      "fit": "这篇很适合作为地质学/活动构造补位文献，能把你关心的 Himalaya、断层几何、前陆变形和浅表构造证据接起来。",
+      "notes": "新增第 9 篇，固定作为地质学好文章。",
+      "link": "https://doi.org/10.1016/j.tecto.2026.231123"
+    }
+  ]
+}
