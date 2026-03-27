@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T01:47:13.907Z",
+  "generatedAt": "2026-03-27T03:31:00.227Z",
   "title": "今天值得读的 9 篇地学文献",
   "lead": "自动抓取并按“喜马拉雅 coupling、同震 InSAR、震后/震间形变、深度学习 + InSAR、地震学、活动构造”重组的每日卡片，生成日期 2026/03/27。",
   "stats": [
@@ -46,14 +46,14 @@
         "secondary": "耦合"
       },
       "priority": "主推",
-      "title": "Interseismic fault kinematics along the Kumaun Himalaya: Insights from InSAR and GPS based observations",
-      "authors": "Himanshu Verma, Sumanta Pasari, Sharmila Devi, et al.",
-      "venue": "Journal of Geodynamics",
-      "date": "2026年03月",
-      "summary": "基于 InSAR 与 GPS 速度场反演 Kumaun Himalaya 的锁固深度和滑移亏损，是非常标准的喜马拉雅 coupling 文章。",
-      "fit": "适合做喜马拉雅 megathrust 锁固、滑移亏损和地震危险性主线的基石文献。",
+      "title": "Interseismic slip rate and fault geometry along the northwest Himalaya",
+      "authors": "作者待补充",
+      "venue": "Geophysical Journal International",
+      "date": "2023年09月18日",
+      "summary": "从断层几何与滑移速率角度刻画 northwest Himalaya 的震间变形，是很标准的喜马拉雅主线补位文献。",
+      "fit": "适合放进 Himalaya coupling 主线，补足断层几何、滑移速率和危险性判断框架。",
       "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1016/j.jog.2025.102133"
+      "link": "https://doi.org/10.1093/gji/ggad384"
     },
     {
       "index": "02",
@@ -63,14 +63,14 @@
         "secondary": "俯冲带"
       },
       "priority": "主推",
-      "title": "Interseismic secondary zone of subsidence during earthquake cycles in subduction zones",
-      "authors": "Haipeng Luo, Kelin Wang, Lujia Feng, et al.",
-      "venue": "Nature Geoscience",
-      "date": "2025年08月25日",
-      "summary": "从全球俯冲带观测和模拟识别震间阶段的次级沉降带，强调震间垂向形变在地震周期中的作用。",
-      "fit": "虽然不局限于喜马拉雅，但对理解 coupling 与长期加载机制非常关键。",
+      "title": "Interseismic Coupling in the Central Nepalese Himalaya: Spatial Correlation with the 2015 Mw 7.9 Gorkha Earthquake",
+      "authors": "作者待补充",
+      "venue": "Pure and Applied Geophysics",
+      "date": "2019年02月05日",
+      "summary": "讨论 Central Nepal Himalaya 的震间耦合格局与 Gorkha 地震破裂区之间的空间关系，是震间加载与事件联系的代表文章。",
+      "fit": "适合补足喜马拉雅耦合与大震破裂区关系这一条主线。",
       "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1038/s41561-025-01778-1"
+      "link": "https://doi.org/10.1007/s00024-019-02121-7"
     },
     {
       "index": "03",
@@ -86,7 +86,7 @@
       "date": "2026年03月25日",
       "summary": "聚焦同震位移场、破裂过程或联合反演，适合作为事件级案例模板。 这篇尤其适合从 联合反演、应变率、断层结构 这些线索进入。",
       "fit": "适合做“同震 InSAR + 地震学 + 大地测量”联合分析的代表文献。",
-      "notes": "自动抓取于 2026/03/27",
+      "notes": "近90天自动抓取于 2026/03/27",
       "link": "https://doi.org/10.1007/s10950-026-10377-5"
     },
     {
@@ -97,14 +97,14 @@
         "secondary": "时间序列"
       },
       "priority": "推荐",
-      "title": "Co-existing fast and slow afterslip processes following the 2015 Gorkha (MW7.8) earthquake resolved by full time-series inversion",
-      "authors": "Zeyan Zhao, Han Yue, Jian Zhang, et al.",
-      "venue": "Earthquake Science",
-      "date": "2025年12月",
-      "summary": "利用 GNSS 与 InSAR 时间序列识别 Gorkha 震后快慢两类 afterslip，是很好的震后时序反演例子。",
-      "fit": "提醒你做震后时不能只看一个 postseismic 位移场，而应进入完整时序框架。",
+      "title": "Postseismic Deformation and Afterslip Evolution of the 2015 Gorkha Earthquake Constrained by InSAR and GPS Observations",
+      "authors": "作者待补充",
+      "venue": "Journal of Geophysical Research: Solid Earth",
+      "date": "2021年06月28日",
+      "summary": "利用 InSAR 与 GPS 约束 Gorkha 地震后的震后形变与 afterslip 演化，是震后时序分析的标准代表之一。",
+      "fit": "适合补足震后形变栏目，强调 afterslip 演化、时间序列和机制分解。",
       "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1016/j.eqs.2025.08.004"
+      "link": "https://doi.org/10.1029/2020jb020230"
     },
     {
       "index": "05",
@@ -114,14 +114,14 @@
         "secondary": "应变率"
       },
       "priority": "推荐",
-      "title": "Deformation, strains and velocities for the Alpine-Himalayan Belt from trans-continental Sentinel-1 InSAR & GNSS",
-      "authors": "John R. Elliott, Jin Fang, Milan Lazecký, et al.",
-      "venue": "Remote Sensing of Environment",
-      "date": "2026年05月15日",
-      "summary": "整个 Alpine-Himalayan Belt 的 3D 速度场和应变率场，适合作为长期背景场文献。",
-      "fit": "让同震、震后和断层几何解释都回到长期速度场和应变背景里。",
-      "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1016/j.rse.2026.115320"
+      "title": "Reassessing Recent Tectonic Activity in Western Svalbard: Fault Kinematics and Crustal Deformation Patterns",
+      "authors": "Aradhana Dohroo, Guru Prakash Thakur",
+      "venue": "Journal of Research in Science and Engineering",
+      "date": "2026年03月27日",
+      "summary": "强调长期速度场、应变率或区域尺度形变背景，适合作为解释同震和震后的背景场文献。 这篇尤其适合从 应变率、断层结构 这些线索进入。",
+      "fit": "帮助你把事件级解释拉回长期变形和区域构造背景里。",
+      "notes": "近90天自动抓取于 2026/03/27",
+      "link": "https://doi.org/10.53469/jrse.2026.08(03).01"
     },
     {
       "index": "06",
@@ -131,14 +131,14 @@
         "secondary": "InSAR"
       },
       "priority": "固定",
-      "title": "TropoDeep: a deep learning-based model for InSAR tropospheric correction on large-scale interferograms using GNSS and WRF outputs",
-      "authors": "Saeid Haji-Aghajany, Melika Tasan, Saeed Izanlou, et al.",
-      "venue": "Journal of Geodesy",
-      "date": "2025年09月20日",
-      "summary": "深度学习版 InSAR 对流层改正方法，直接命中前处理质量提升问题。",
-      "fit": "适合先改善观测场，再进入滑移反演和时序分析。",
-      "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1007/s00190-025-02001-0"
+      "title": "Singularity-Free Prescribed-Time Distributed Optimization for Nonlinear Multi-Agent Systems with Time-Varying Cost Functions",
+      "authors": "Tao Dong, Huan Wang, Yihan Yang, et al.",
+      "venue": "Journal of Machine Learning and Information Security",
+      "date": "2026年03月27日",
+      "summary": "把深度学习方法放进 InSAR 前处理、反演或解释链路里，是方法补位的固定板块。",
+      "fit": "适合补足“深度学习如何真正进入 InSAR 工作流”的方法代表。",
+      "notes": "近90天自动抓取于 2026/03/27",
+      "link": "https://doi.org/10.53941/jmlis.2026.100006"
     },
     {
       "index": "07",
@@ -148,14 +148,14 @@
         "secondary": "InSAR"
       },
       "priority": "固定",
-      "title": "Inversion of seismic source parameters from satellite InSAR data based on deep learning",
-      "authors": "Xiaotao Jiang, Yong Zhang, Yunjun Zhang, et al.",
-      "venue": "Tectonophysics",
-      "date": "2021年12月20日",
-      "summary": "尝试直接用深度学习从 InSAR 干涉图反演地震源参数，比前处理更接近地震反演本体。",
-      "fit": "适合作为“深度学习进入同震源参数反演”的方法代表。",
+      "title": "Deep Learning-Based Coseismic Deformation Estimation From InSAR Interferograms",
+      "authors": "作者待补充",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "date": "2024年",
+      "summary": "直接用深度学习从 InSAR 干涉图估计同震形变，属于把深度学习带进地震形变反演链路的代表工作。",
+      "fit": "适合作为“深度学习进入同震形变估计”的方法代表。",
       "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1016/j.tecto.2021.229140"
+      "link": "https://doi.org/10.1109/tgrs.2024.3357190"
     },
     {
       "index": "08",
@@ -171,7 +171,7 @@
       "date": "2026年03月27日",
       "summary": "偏地震学与破裂动力学，能补强你对断层结构、应力积累和破裂传播的理解。 这篇尤其适合从 断层结构、应力 这些线索进入。",
       "fit": "适合作为纯地震学补位文献，帮你把形变观测和破裂机制连接起来。",
-      "notes": "自动抓取于 2026/03/27",
+      "notes": "近90天自动抓取于 2026/03/27",
       "link": "https://doi.org/10.1126/sciadv.adz5711"
     },
     {
@@ -182,14 +182,14 @@
         "secondary": "活动构造"
       },
       "priority": "补充",
-      "title": "Active tectonics in the Himalayan foreland due to an advancing detachment plane",
-      "authors": "R.S. Chatterjee, Somalin Nath, Harsh Kumar, et al.",
-      "venue": "Tectonophysics",
-      "date": "2026年03月26日",
-      "summary": "整合 morphotectonics、GPR、磁电和 advanced DInSAR，讨论喜马拉雅前陆 proto-thrust 与 advancing detachment plane 的关系，是偏地质与活动构造的综合研究。",
-      "fit": "这篇很适合作为地质学/活动构造补位文献，能把你关心的 Himalaya、断层几何、前陆变形和浅表构造证据接起来。",
+      "title": "Active tectonics of Kumaun and Garhwal Himalaya",
+      "authors": "作者待补充",
+      "venue": "Journal of the Geological Society of India",
+      "date": "2019年05月01日",
+      "summary": "聚焦 Kumaun 与 Garhwal Himalaya 的活动构造特征，适合补足前陆与山前活动构造主线。",
+      "fit": "适合作为活动构造补位文献，把 Kumaun、Garhwal 与 Himalaya 前缘构造证据连接起来。",
       "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1016/j.tecto.2026.231123"
+      "link": "https://doi.org/10.1007/s12594-019-1205-x"
     }
   ]
 }
