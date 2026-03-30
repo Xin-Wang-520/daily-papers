@@ -343,201 +343,222 @@
 
     <script>
       const fallbackData = {
-  "generatedAt": "2026-03-27T03:31:00.227Z",
-  "title": "今天值得读的 9 篇地学文献",
-  "lead": "自动抓取并按“喜马拉雅 coupling、同震 InSAR、震后/震间形变、深度学习 + InSAR、地震学、活动构造”重组的每日卡片，生成日期 2026/03/27。",
+  "generatedAt": "2026-03-30T06:26:33.818Z",
+  "title": "今天值得读的 9 篇 AI 文献",
+  "lead": "今天更值得关注的是 Agent / Tool Use 5 篇，Reasoning 4 篇。优先看《Agent 系统为什么越来越依赖工具调用》和《大模型推理增强，开始从实验室走向真实任务》，因为它们更接近 GPT 类产品的真实能力建设。当前为实时抓取结果，可直接作为今天的选题池。",
   "stats": [
     {
-      "value": "2",
-      "label": "喜马拉雅/周期机制"
+      "value": "5",
+      "label": "Agent / Tool Use"
     },
     {
-      "value": "1",
-      "label": "同震 InSAR"
+      "value": "0",
+      "label": "Multimodal"
     },
     {
-      "value": "2",
-      "label": "震后/震间"
+      "value": "0",
+      "label": "RAG / Retrieval"
     },
     {
-      "value": "2",
-      "label": "深度学习 + InSAR"
-    },
-    {
-      "value": "1",
-      "label": "地震学"
-    },
-    {
-      "value": "1",
-      "label": "地质学"
+      "value": "9",
+      "label": "总推荐数"
     }
   ],
   "rules": [
-    "喜马拉雅 coupling 或周期机制 2 篇",
-    "全球有代表性的同震 InSAR 1 篇",
-    "震后形变 1 篇",
-    "震间速度场 / 时序 InSAR 1 篇",
-    "深度学习 + InSAR 2 篇",
-    "地震学好文章 1 篇",
-    "地质学 / 活动构造好文章 1 篇"
+    "优先推荐更接近真实产品链路的论文",
+    "按主题赛道与推荐分排序",
+    "优先保留可直接转成公众号选题的内容",
+    "当前页面由 daily-papers-site-data.json 驱动"
   ],
   "items": [
     {
       "index": "01",
-      "tags": [],
+      "tags": [
+        "Agent / Tool Use",
+        "必看"
+      ],
       "topic": {
-        "primary": "喜马拉雅",
-        "secondary": "耦合"
+        "primary": "",
+        "secondary": ""
       },
-      "priority": "主推",
-      "title": "Interseismic slip rate and fault geometry along the northwest Himalaya",
-      "authors": "作者待补充",
-      "venue": "Geophysical Journal International",
-      "date": "2023年09月18日",
-      "summary": "从断层几何与滑移速率角度刻画 northwest Himalaya 的震间变形，是很标准的喜马拉雅主线补位文献。",
-      "fit": "适合放进 Himalaya coupling 主线，补足断层几何、滑移速率和危险性判断框架。",
-      "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1093/gji/ggad384"
+      "priority": "",
+      "title": "Agent 系统为什么越来越依赖工具调用｜BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments",
+      "authors": "待补充",
+      "venue": "arXiv cs.AI / AI",
+      "date": "2026/03/30",
+      "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
+      "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+      "notes": "",
+      "link": "https://arxiv.org/abs/2603.25747"
     },
     {
       "index": "02",
-      "tags": [],
+      "tags": [
+        "Reasoning",
+        "必看"
+      ],
       "topic": {
-        "primary": "地震周期",
-        "secondary": "俯冲带"
+        "primary": "",
+        "secondary": ""
       },
-      "priority": "主推",
-      "title": "Interseismic Coupling in the Central Nepalese Himalaya: Spatial Correlation with the 2015 Mw 7.9 Gorkha Earthquake",
-      "authors": "作者待补充",
-      "venue": "Pure and Applied Geophysics",
-      "date": "2019年02月05日",
-      "summary": "讨论 Central Nepal Himalaya 的震间耦合格局与 Gorkha 地震破裂区之间的空间关系，是震间加载与事件联系的代表文章。",
-      "fit": "适合补足喜马拉雅耦合与大震破裂区关系这一条主线。",
-      "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1007/s00024-019-02121-7"
+      "priority": "",
+      "title": "大模型推理增强，开始从实验室走向真实任务｜Can Small Models Reason About Legal Documents? A Comparative Study",
+      "authors": "待补充",
+      "venue": "arXiv cs.CL / NLP",
+      "date": "2026/03/30",
+      "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
+      "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+      "notes": "",
+      "link": "https://arxiv.org/abs/2603.25944"
     },
     {
       "index": "03",
-      "tags": [],
+      "tags": [
+        "Agent / Tool Use",
+        "必看"
+      ],
       "topic": {
-        "primary": "同震形变",
-        "secondary": "联合反演"
+        "primary": "",
+        "secondary": ""
       },
-      "priority": "主推",
-      "title": "Multiple discrete sources of the Catastrophic 2023 Mw &gt; 6.0 NNW-Herat, Afghanistan, Earthquake Sequence constrained by Teleseismic Data: Resolving blind duplex thrusting rupture propagation and its seismogenesis",
-      "authors": "Mustafa Toker, Hatice Durmuş, Murat Utkucu, et al.",
-      "venue": "Journal of Seismology",
-      "date": "2026年03月25日",
-      "summary": "聚焦同震位移场、破裂过程或联合反演，适合作为事件级案例模板。 这篇尤其适合从 联合反演、应变率、断层结构 这些线索进入。",
-      "fit": "适合做“同震 InSAR + 地震学 + 大地测量”联合分析的代表文献。",
-      "notes": "近90天自动抓取于 2026/03/27",
-      "link": "https://doi.org/10.1007/s10950-026-10377-5"
+      "priority": "",
+      "title": "Agent 系统为什么越来越依赖工具调用｜AgentCollab: A Self-Evaluation-Driven Collaboration Paradigm for Efficient LLM Agents",
+      "authors": "待补充",
+      "venue": "arXiv cs.CL / NLP",
+      "date": "2026/03/30",
+      "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
+      "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+      "notes": "",
+      "link": "https://arxiv.org/abs/2603.26034"
     },
     {
       "index": "04",
-      "tags": [],
+      "tags": [
+        "Reasoning",
+        "必看"
+      ],
       "topic": {
-        "primary": "震后形变",
-        "secondary": "时间序列"
+        "primary": "",
+        "secondary": ""
       },
-      "priority": "推荐",
-      "title": "Postseismic Deformation and Afterslip Evolution of the 2015 Gorkha Earthquake Constrained by InSAR and GPS Observations",
-      "authors": "作者待补充",
-      "venue": "Journal of Geophysical Research: Solid Earth",
-      "date": "2021年06月28日",
-      "summary": "利用 InSAR 与 GPS 约束 Gorkha 地震后的震后形变与 afterslip 演化，是震后时序分析的标准代表之一。",
-      "fit": "适合补足震后形变栏目，强调 afterslip 演化、时间序列和机制分解。",
-      "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1029/2020jb020230"
+      "priority": "",
+      "title": "大模型推理增强，开始从实验室走向真实任务｜From Human Cognition to Neural Activations: Probing the Computational Primitives of Spatial Reasoning in LLMs",
+      "authors": "待补充",
+      "venue": "arXiv cs.CL / NLP",
+      "date": "2026/03/30",
+      "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
+      "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+      "notes": "",
+      "link": "https://arxiv.org/abs/2603.26323"
     },
     {
       "index": "05",
-      "tags": [],
+      "tags": [
+        "Agent / Tool Use",
+        "必看"
+      ],
       "topic": {
-        "primary": "速度场",
-        "secondary": "应变率"
+        "primary": "",
+        "secondary": ""
       },
-      "priority": "推荐",
-      "title": "Reassessing Recent Tectonic Activity in Western Svalbard: Fault Kinematics and Crustal Deformation Patterns",
-      "authors": "Aradhana Dohroo, Guru Prakash Thakur",
-      "venue": "Journal of Research in Science and Engineering",
-      "date": "2026年03月27日",
-      "summary": "强调长期速度场、应变率或区域尺度形变背景，适合作为解释同震和震后的背景场文献。 这篇尤其适合从 应变率、断层结构 这些线索进入。",
-      "fit": "帮助你把事件级解释拉回长期变形和区域构造背景里。",
-      "notes": "近90天自动抓取于 2026/03/27",
-      "link": "https://doi.org/10.53469/jrse.2026.08(03).01"
+      "priority": "",
+      "title": "Agent 系统为什么越来越依赖工具调用｜Towards GUI Agents: Vision-Language Diffusion Models for GUI Grounding",
+      "authors": "待补充",
+      "venue": "arXiv cs.CV / Vision",
+      "date": "2026/03/30",
+      "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
+      "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+      "notes": "",
+      "link": "https://arxiv.org/abs/2603.26211"
     },
     {
       "index": "06",
-      "tags": [],
+      "tags": [
+        "Reasoning",
+        "必看"
+      ],
       "topic": {
-        "primary": "深度学习",
-        "secondary": "InSAR"
+        "primary": "",
+        "secondary": ""
       },
-      "priority": "固定",
-      "title": "Singularity-Free Prescribed-Time Distributed Optimization for Nonlinear Multi-Agent Systems with Time-Varying Cost Functions",
-      "authors": "Tao Dong, Huan Wang, Yihan Yang, et al.",
-      "venue": "Journal of Machine Learning and Information Security",
-      "date": "2026年03月27日",
-      "summary": "把深度学习方法放进 InSAR 前处理、反演或解释链路里，是方法补位的固定板块。",
-      "fit": "适合补足“深度学习如何真正进入 InSAR 工作流”的方法代表。",
-      "notes": "近90天自动抓取于 2026/03/27",
-      "link": "https://doi.org/10.53941/jmlis.2026.100006"
+      "priority": "",
+      "title": "大模型推理增强，开始从实验室走向真实任务｜Reflect to Inform: Boosting Multimodal Reasoning via Information-Gain-Driven Verification",
+      "authors": "待补充",
+      "venue": "arXiv cs.CV / Vision",
+      "date": "2026/03/30",
+      "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
+      "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+      "notes": "",
+      "link": "https://arxiv.org/abs/2603.26348"
     },
     {
       "index": "07",
-      "tags": [],
+      "tags": [
+        "Agent / Tool Use",
+        "必看"
+      ],
       "topic": {
-        "primary": "深度学习",
-        "secondary": "InSAR"
+        "primary": "",
+        "secondary": ""
       },
-      "priority": "固定",
-      "title": "Deep Learning-Based Coseismic Deformation Estimation From InSAR Interferograms",
-      "authors": "作者待补充",
-      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
-      "date": "2024年",
-      "summary": "直接用深度学习从 InSAR 干涉图估计同震形变，属于把深度学习带进地震形变反演链路的代表工作。",
-      "fit": "适合作为“深度学习进入同震形变估计”的方法代表。",
-      "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1109/tgrs.2024.3357190"
+      "priority": "",
+      "title": "Agent 系统为什么越来越依赖工具调用｜SkinGPT-X: A Self-Evolving Collaborative Multi-Agent System for Transparent and Trustworthy Dermatological Diagnosis",
+      "authors": "待补充",
+      "venue": "arXiv cs.CV / Vision",
+      "date": "2026/03/30",
+      "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
+      "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+      "notes": "",
+      "link": "https://arxiv.org/abs/2603.26122"
     },
     {
       "index": "08",
-      "tags": [],
+      "tags": [
+        "Reasoning",
+        "必看"
+      ],
       "topic": {
-        "primary": "地震学",
-        "secondary": "破裂动力学"
+        "primary": "",
+        "secondary": ""
       },
-      "priority": "补充",
-      "title": "Seismic rhythms: Earthquake response to tectonic, hydrological, and tidal forcing in California",
-      "authors": "Krittanon Sirorattanakul, Jean-Philippe Avouac",
-      "venue": "Science Advances",
-      "date": "2026年03月27日",
-      "summary": "偏地震学与破裂动力学，能补强你对断层结构、应力积累和破裂传播的理解。 这篇尤其适合从 断层结构、应力 这些线索进入。",
-      "fit": "适合作为纯地震学补位文献，帮你把形变观测和破裂机制连接起来。",
-      "notes": "近90天自动抓取于 2026/03/27",
-      "link": "https://doi.org/10.1126/sciadv.adz5711"
+      "priority": "",
+      "title": "大模型推理增强，开始从实验室走向真实任务｜ArtHOI: Taming Foundation Models for Monocular 4D Reconstruction of Hand-Articulated-Object Interactions",
+      "authors": "待补充",
+      "venue": "arXiv cs.CV / Vision",
+      "date": "2026/03/30",
+      "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
+      "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+      "notes": "",
+      "link": "https://arxiv.org/abs/2603.25791"
     },
     {
       "index": "09",
-      "tags": [],
+      "tags": [
+        "Agent / Tool Use",
+        "必看"
+      ],
       "topic": {
-        "primary": "地质学",
-        "secondary": "活动构造"
+        "primary": "",
+        "secondary": ""
       },
-      "priority": "补充",
-      "title": "Active tectonics of Kumaun and Garhwal Himalaya",
-      "authors": "作者待补充",
-      "venue": "Journal of the Geological Society of India",
-      "date": "2019年05月01日",
-      "summary": "聚焦 Kumaun 与 Garhwal Himalaya 的活动构造特征，适合补足前陆与山前活动构造主线。",
-      "fit": "适合作为活动构造补位文献，把 Kumaun、Garhwal 与 Himalaya 前缘构造证据连接起来。",
-      "notes": "种子回退于 2026/03/27",
-      "link": "https://doi.org/10.1007/s12594-019-1205-x"
+      "priority": "",
+      "title": "Agent 系统为什么越来越依赖工具调用｜CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation",
+      "authors": "待补充",
+      "venue": "arXiv cs.AI / AI",
+      "date": "2026/03/30",
+      "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
+      "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+      "notes": "",
+      "link": "https://arxiv.org/abs/2603.26512"
     }
   ]
 };
       const embeddedArchiveEntries = [
+  {
+    "date": "2026-03-30",
+    "title": "今天值得读的 9 篇 AI 文献",
+    "file": "./archive/2026-03-30.json"
+  },
   {
     "date": "2026-03-27",
     "title": "今天值得读的 9 篇地学文献",
@@ -550,6 +571,217 @@
   }
 ];
       const embeddedArchivePayloads = {
+  "./archive/2026-03-30.json": {
+    "generatedAt": "2026-03-30T06:26:33.818Z",
+    "title": "今天值得读的 9 篇 AI 文献",
+    "lead": "今天更值得关注的是 Agent / Tool Use 5 篇，Reasoning 4 篇。优先看《Agent 系统为什么越来越依赖工具调用》和《大模型推理增强，开始从实验室走向真实任务》，因为它们更接近 GPT 类产品的真实能力建设。当前为实时抓取结果，可直接作为今天的选题池。",
+    "stats": [
+      {
+        "value": "5",
+        "label": "Agent / Tool Use"
+      },
+      {
+        "value": "0",
+        "label": "Multimodal"
+      },
+      {
+        "value": "0",
+        "label": "RAG / Retrieval"
+      },
+      {
+        "value": "9",
+        "label": "总推荐数"
+      }
+    ],
+    "rules": [
+      "优先推荐更接近真实产品链路的论文",
+      "按主题赛道与推荐分排序",
+      "优先保留可直接转成公众号选题的内容",
+      "当前页面由 daily-papers-site-data.json 驱动"
+    ],
+    "items": [
+      {
+        "index": "01",
+        "tags": [
+          "Agent / Tool Use",
+          "必看"
+        ],
+        "topic": {
+          "primary": "",
+          "secondary": ""
+        },
+        "priority": "",
+        "title": "Agent 系统为什么越来越依赖工具调用｜BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments",
+        "authors": "待补充",
+        "venue": "arXiv cs.AI / AI",
+        "date": "2026/03/30",
+        "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
+        "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+        "notes": "",
+        "link": "https://arxiv.org/abs/2603.25747"
+      },
+      {
+        "index": "02",
+        "tags": [
+          "Reasoning",
+          "必看"
+        ],
+        "topic": {
+          "primary": "",
+          "secondary": ""
+        },
+        "priority": "",
+        "title": "大模型推理增强，开始从实验室走向真实任务｜Can Small Models Reason About Legal Documents? A Comparative Study",
+        "authors": "待补充",
+        "venue": "arXiv cs.CL / NLP",
+        "date": "2026/03/30",
+        "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
+        "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+        "notes": "",
+        "link": "https://arxiv.org/abs/2603.25944"
+      },
+      {
+        "index": "03",
+        "tags": [
+          "Agent / Tool Use",
+          "必看"
+        ],
+        "topic": {
+          "primary": "",
+          "secondary": ""
+        },
+        "priority": "",
+        "title": "Agent 系统为什么越来越依赖工具调用｜AgentCollab: A Self-Evaluation-Driven Collaboration Paradigm for Efficient LLM Agents",
+        "authors": "待补充",
+        "venue": "arXiv cs.CL / NLP",
+        "date": "2026/03/30",
+        "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
+        "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+        "notes": "",
+        "link": "https://arxiv.org/abs/2603.26034"
+      },
+      {
+        "index": "04",
+        "tags": [
+          "Reasoning",
+          "必看"
+        ],
+        "topic": {
+          "primary": "",
+          "secondary": ""
+        },
+        "priority": "",
+        "title": "大模型推理增强，开始从实验室走向真实任务｜From Human Cognition to Neural Activations: Probing the Computational Primitives of Spatial Reasoning in LLMs",
+        "authors": "待补充",
+        "venue": "arXiv cs.CL / NLP",
+        "date": "2026/03/30",
+        "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
+        "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+        "notes": "",
+        "link": "https://arxiv.org/abs/2603.26323"
+      },
+      {
+        "index": "05",
+        "tags": [
+          "Agent / Tool Use",
+          "必看"
+        ],
+        "topic": {
+          "primary": "",
+          "secondary": ""
+        },
+        "priority": "",
+        "title": "Agent 系统为什么越来越依赖工具调用｜Towards GUI Agents: Vision-Language Diffusion Models for GUI Grounding",
+        "authors": "待补充",
+        "venue": "arXiv cs.CV / Vision",
+        "date": "2026/03/30",
+        "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
+        "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+        "notes": "",
+        "link": "https://arxiv.org/abs/2603.26211"
+      },
+      {
+        "index": "06",
+        "tags": [
+          "Reasoning",
+          "必看"
+        ],
+        "topic": {
+          "primary": "",
+          "secondary": ""
+        },
+        "priority": "",
+        "title": "大模型推理增强，开始从实验室走向真实任务｜Reflect to Inform: Boosting Multimodal Reasoning via Information-Gain-Driven Verification",
+        "authors": "待补充",
+        "venue": "arXiv cs.CV / Vision",
+        "date": "2026/03/30",
+        "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
+        "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+        "notes": "",
+        "link": "https://arxiv.org/abs/2603.26348"
+      },
+      {
+        "index": "07",
+        "tags": [
+          "Agent / Tool Use",
+          "必看"
+        ],
+        "topic": {
+          "primary": "",
+          "secondary": ""
+        },
+        "priority": "",
+        "title": "Agent 系统为什么越来越依赖工具调用｜SkinGPT-X: A Self-Evolving Collaborative Multi-Agent System for Transparent and Trustworthy Dermatological Diagnosis",
+        "authors": "待补充",
+        "venue": "arXiv cs.CV / Vision",
+        "date": "2026/03/30",
+        "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
+        "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+        "notes": "",
+        "link": "https://arxiv.org/abs/2603.26122"
+      },
+      {
+        "index": "08",
+        "tags": [
+          "Reasoning",
+          "必看"
+        ],
+        "topic": {
+          "primary": "",
+          "secondary": ""
+        },
+        "priority": "",
+        "title": "大模型推理增强，开始从实验室走向真实任务｜ArtHOI: Taming Foundation Models for Monocular 4D Reconstruction of Hand-Articulated-Object Interactions",
+        "authors": "待补充",
+        "venue": "arXiv cs.CV / Vision",
+        "date": "2026/03/30",
+        "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
+        "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+        "notes": "",
+        "link": "https://arxiv.org/abs/2603.25791"
+      },
+      {
+        "index": "09",
+        "tags": [
+          "Agent / Tool Use",
+          "必看"
+        ],
+        "topic": {
+          "primary": "",
+          "secondary": ""
+        },
+        "priority": "",
+        "title": "Agent 系统为什么越来越依赖工具调用｜CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation",
+        "authors": "待补充",
+        "venue": "arXiv cs.AI / AI",
+        "date": "2026/03/30",
+        "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
+        "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+        "notes": "",
+        "link": "https://arxiv.org/abs/2603.26512"
+      }
+    ]
+  },
   "./archive/2026-03-27.json": {
     "generatedAt": "2026-03-27T03:31:00.227Z",
     "title": "今天值得读的 9 篇地学文献",

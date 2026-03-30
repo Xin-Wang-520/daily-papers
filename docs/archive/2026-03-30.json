@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T03:55:06.719Z",
+  "generatedAt": "2026-03-30T06:26:33.818Z",
   "title": "今天值得读的 9 篇 AI 文献",
   "lead": "今天更值得关注的是 Agent / Tool Use 5 篇，Reasoning 4 篇。优先看《Agent 系统为什么越来越依赖工具调用》和《大模型推理增强，开始从实验室走向真实任务》，因为它们更接近 GPT 类产品的真实能力建设。当前为实时抓取结果，可直接作为今天的选题池。",
   "stats": [
@@ -33,12 +33,18 @@
         "Agent / Tool Use",
         "必看"
       ],
+      "topic": {
+        "primary": "",
+        "secondary": ""
+      },
+      "priority": "",
       "title": "Agent 系统为什么越来越依赖工具调用｜BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments",
       "authors": "待补充",
       "venue": "arXiv cs.AI / AI",
       "date": "2026/03/30",
       "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
       "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+      "notes": "",
       "link": "https://arxiv.org/abs/2603.25747"
     },
     {
@@ -47,12 +53,18 @@
         "Reasoning",
         "必看"
       ],
+      "topic": {
+        "primary": "",
+        "secondary": ""
+      },
+      "priority": "",
       "title": "大模型推理增强，开始从实验室走向真实任务｜Can Small Models Reason About Legal Documents? A Comparative Study",
       "authors": "待补充",
       "venue": "arXiv cs.CL / NLP",
       "date": "2026/03/30",
       "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
       "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+      "notes": "",
       "link": "https://arxiv.org/abs/2603.25944"
     },
     {
@@ -61,12 +73,18 @@
         "Agent / Tool Use",
         "必看"
       ],
+      "topic": {
+        "primary": "",
+        "secondary": ""
+      },
+      "priority": "",
       "title": "Agent 系统为什么越来越依赖工具调用｜AgentCollab: A Self-Evaluation-Driven Collaboration Paradigm for Efficient LLM Agents",
       "authors": "待补充",
       "venue": "arXiv cs.CL / NLP",
       "date": "2026/03/30",
       "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
       "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+      "notes": "",
       "link": "https://arxiv.org/abs/2603.26034"
     },
     {
@@ -75,12 +93,18 @@
         "Reasoning",
         "必看"
       ],
+      "topic": {
+        "primary": "",
+        "secondary": ""
+      },
+      "priority": "",
       "title": "大模型推理增强，开始从实验室走向真实任务｜From Human Cognition to Neural Activations: Probing the Computational Primitives of Spatial Reasoning in LLMs",
       "authors": "待补充",
       "venue": "arXiv cs.CL / NLP",
       "date": "2026/03/30",
       "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
       "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+      "notes": "",
       "link": "https://arxiv.org/abs/2603.26323"
     },
     {
@@ -89,12 +113,18 @@
         "Agent / Tool Use",
         "必看"
       ],
+      "topic": {
+        "primary": "",
+        "secondary": ""
+      },
+      "priority": "",
       "title": "Agent 系统为什么越来越依赖工具调用｜Towards GUI Agents: Vision-Language Diffusion Models for GUI Grounding",
       "authors": "待补充",
       "venue": "arXiv cs.CV / Vision",
       "date": "2026/03/30",
       "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
       "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+      "notes": "",
       "link": "https://arxiv.org/abs/2603.26211"
     },
     {
@@ -103,12 +133,18 @@
         "Reasoning",
         "必看"
       ],
+      "topic": {
+        "primary": "",
+        "secondary": ""
+      },
+      "priority": "",
       "title": "大模型推理增强，开始从实验室走向真实任务｜Reflect to Inform: Boosting Multimodal Reasoning via Information-Gain-Driven Verification",
       "authors": "待补充",
       "venue": "arXiv cs.CV / Vision",
       "date": "2026/03/30",
       "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
       "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+      "notes": "",
       "link": "https://arxiv.org/abs/2603.26348"
     },
     {
@@ -117,12 +153,18 @@
         "Agent / Tool Use",
         "必看"
       ],
+      "topic": {
+        "primary": "",
+        "secondary": ""
+      },
+      "priority": "",
       "title": "Agent 系统为什么越来越依赖工具调用｜SkinGPT-X: A Self-Evolving Collaborative Multi-Agent System for Transparent and Trustworthy Dermatological Diagnosis",
       "authors": "待补充",
       "venue": "arXiv cs.CV / Vision",
       "date": "2026/03/30",
       "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
       "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+      "notes": "",
       "link": "https://arxiv.org/abs/2603.26122"
     },
     {
@@ -131,12 +173,18 @@
         "Reasoning",
         "必看"
       ],
+      "topic": {
+        "primary": "",
+        "secondary": ""
+      },
+      "priority": "",
       "title": "大模型推理增强，开始从实验室走向真实任务｜ArtHOI: Taming Foundation Models for Monocular 4D Reconstruction of Hand-Articulated-Object Interactions",
       "authors": "待补充",
       "venue": "arXiv cs.CV / Vision",
       "date": "2026/03/30",
       "summary": "它讨论的是大模型在复杂任务里的推理能力怎样提升，真正值得关注的地方在于这些方法能不能从评测分数走到真实任务成功率。",
       "fit": "适合用于判断“推理增强”是否真的能提升复杂任务完成率，而不只是拉高基准分数。",
+      "notes": "",
       "link": "https://arxiv.org/abs/2603.25791"
     },
     {
@@ -145,12 +193,18 @@
         "Agent / Tool Use",
         "必看"
       ],
+      "topic": {
+        "primary": "",
+        "secondary": ""
+      },
+      "priority": "",
       "title": "Agent 系统为什么越来越依赖工具调用｜CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation",
       "authors": "待补充",
       "venue": "arXiv cs.AI / AI",
       "date": "2026/03/30",
       "summary": "它关注的不是单点能力提升，而是怎样把推理、工具调用、检索和长上下文处理组织成一条真正能跑起来的任务链路，这对 Agent 产品尤其关键。",
       "fit": "如果你在做 Agent、工作流编排或工具调用，这类论文最容易转成产品迭代方向。",
+      "notes": "",
       "link": "https://arxiv.org/abs/2603.26512"
     }
   ]
