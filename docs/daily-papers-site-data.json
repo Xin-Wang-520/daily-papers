@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-03-31T01:13:51.669Z",
+  "generatedAt": "2026-03-31T02:06:10.263Z",
   "title": "今天值得读的 9 篇地学文献",
-  "lead": "自动抓取并按“喜马拉雅 coupling、同震 InSAR、震后/震间形变、深度学习 + InSAR、地震学、活动构造”重组的每日卡片，生成日期 2026/03/30。",
+  "lead": "按“喜马拉雅 coupling、同震 InSAR、震后/震间形变、深度学习 + InSAR、地震学、活动构造”重组的每日卡片，生成日期 2026/03/31。",
   "stats": [
     {
       "value": "2",
@@ -46,14 +46,14 @@
         "secondary": "耦合"
       },
       "priority": "主推",
-      "title": "Interseismic coupling along the central Himalaya constrained by Sentinel-1 InSAR and GNSS",
-      "authors": "A. Sharma, B. Li, C. Singh",
-      "venue": "Journal of Geodesy",
-      "date": "2026年03月18日",
-      "summary": "围绕喜马拉雅锁固、滑移亏损与震间形变展开，是主线问题里的基石文献。 这篇尤其适合从 InSAR、GNSS、应变率 这些线索进入。",
-      "fit": "适合放在前两篇，帮助你持续跟踪喜马拉雅 megathrust 耦合、加载与地震危险性判断。",
-      "notes": "sample自动抓取于 2026/03/30",
-      "link": "https://doi.org/10.0000/sample-himalaya-1"
+      "title": "Interseismic strain accumulation on the Himalayan crustal ramp",
+      "authors": "作者待补充",
+      "venue": "Nature Geoscience",
+      "date": "2015年09月14日",
+      "summary": "直接讨论主喜马拉雅逆冲断层坡段上的震间应变积累，是理解锁固位置、加载几何和潜在破裂段的核心文献。",
+      "fit": "适合放在第一篇，帮你把 Himalaya coupling 的讨论落到 ramp geometry 和应变积累机制上。",
+      "notes": "人工补库于 2026/03/31",
+      "link": "https://doi.org/10.1038/ngeo2512"
     },
     {
       "index": "02",
@@ -63,14 +63,14 @@
         "secondary": "耦合"
       },
       "priority": "主推",
-      "title": "Megathrust locking and slip deficit evolution beneath western Nepal from geodetic observations",
-      "authors": "D. Kumar, E. Wang, F. Patel",
-      "venue": "Geophysical Journal International",
-      "date": "2026年02月11日",
-      "summary": "围绕喜马拉雅锁固、滑移亏损与震间形变展开，是主线问题里的基石文献。",
-      "fit": "适合放在前两篇，帮助你持续跟踪喜马拉雅 megathrust 耦合、加载与地震危险性判断。",
-      "notes": "sample自动抓取于 2026/03/30",
-      "link": "https://doi.org/10.0000/sample-himalaya-2"
+      "title": "Geodetic imaging of the stress build-up and release in the Himalaya",
+      "authors": "Laurane Chlieh, Philippe M. Avouac, Kelin Wang, et al.",
+      "venue": "Nature",
+      "date": "2015年02月25日",
+      "summary": "用大地测量约束喜马拉雅震间应力积累与释放，是把 coupling、应力加载和地震循环连起来的代表作。",
+      "fit": "适合和第一篇并列阅读，形成“几何控制 + 应力积累”两条主线。",
+      "notes": "人工补库于 2026/03/31",
+      "link": "https://doi.org/10.1038/nature13655"
     },
     {
       "index": "03",
@@ -80,14 +80,14 @@
         "secondary": "联合反演"
       },
       "priority": "主推",
-      "title": "Joint inversion of InSAR, GNSS and teleseismic data for a recent continental earthquake rupture",
-      "authors": "G. Zhao, H. Xu, I. Chen",
-      "venue": "Journal of Asian Earth Sciences",
-      "date": "2026年01月08日",
-      "summary": "聚焦同震位移场、破裂过程或联合反演，适合作为事件级案例模板。 这篇尤其适合从 InSAR、GNSS、联合反演 这些线索进入。",
-      "fit": "适合做“同震 InSAR + 地震学 + 大地测量”联合分析的代表文献。",
-      "notes": "sample自动抓取于 2026/03/30",
-      "link": "https://doi.org/10.0000/sample-coseismic-1"
+      "title": "Slip model of the 2015 Mw 7.8 Gorkha (Nepal) earthquake from inversions of ALOS-2 and GPS data",
+      "authors": "作者待补充",
+      "venue": "Geophysical Research Letters",
+      "date": "2015年08月28日",
+      "summary": "基于 ALOS-2 和 GPS 的联合反演恢复 Gorkha 地震滑移分布，是喜马拉雅同震形变与源参数反演的经典入口。",
+      "fit": "适合作为今天唯一的同震案例，把 InSAR、GPS 和破裂几何直接连起来。",
+      "notes": "人工补库于 2026/03/31",
+      "link": "https://doi.org/10.1002/2015GL065201"
     },
     {
       "index": "04",
@@ -97,14 +97,14 @@
         "secondary": "时间序列"
       },
       "priority": "推荐",
-      "title": "Postseismic deformation and afterslip resolved from GNSS and InSAR time series after a major earthquake",
-      "authors": "J. Liu, K. Roy, L. He",
+      "title": "Probing time-dependent afterslip and viscoelastic relaxation following the 2015 Mw7.8 Gorkha earthquake based on a three-dimensional heterogeneous model",
+      "authors": "作者待补充",
       "venue": "Earth and Planetary Science Letters",
-      "date": "2025年12月03日",
-      "summary": "围绕震后形变、afterslip 或时间序列反演展开，适合放进完整地震循环理解框架。 这篇尤其适合从 InSAR、GNSS、时间序列 这些线索进入。",
-      "fit": "提醒你做震后研究时不要只看单期位移场，而要进入时间序列和机制分解。",
-      "notes": "sample自动抓取于 2026/03/30",
-      "link": "https://doi.org/10.0000/sample-postseismic-1"
+      "date": "2020年01月01日",
+      "summary": "把 afterslip 和黏弹松弛放进统一的三维非均匀模型里，是震后机制分解比单纯位移拟合更进一步的代表文献。",
+      "fit": "适合提醒你做 postseismic 研究时必须把时间依赖过程和流变结构一起考虑。",
+      "notes": "人工补库于 2026/03/31",
+      "link": "https://doi.org/10.1016/j.epsl.2019.116031"
     },
     {
       "index": "05",
@@ -114,14 +114,14 @@
         "secondary": "应变率"
       },
       "priority": "推荐",
-      "title": "A trans-continental InSAR and GNSS velocity field for active mountain belts",
-      "authors": "M. Elliott, N. Fang, O. Lazecky",
-      "venue": "Remote Sensing of Environment",
-      "date": "2025年11月22日",
-      "summary": "强调长期速度场、应变率或区域尺度形变背景，适合作为解释同震和震后的背景场文献。 这篇尤其适合从 InSAR、GNSS、速度场 这些线索进入。",
-      "fit": "帮助你把事件级解释拉回长期变形和区域构造背景里。",
-      "notes": "sample自动抓取于 2026/03/30",
-      "link": "https://doi.org/10.0000/sample-velocity-1"
+      "title": "Three-dimensional interseismic crustal deformation in the northeastern margin of the Tibetan Plateau using GNSS and InSAR",
+      "authors": "作者待补充",
+      "venue": "Journal of Geodesy",
+      "date": "2024年10月07日",
+      "summary": "用 GNSS 和 InSAR 恢复青藏高原东北缘三维震间形变，是把速度场、垂向分量和区域构造解释放到一起的好例子。",
+      "fit": "适合作为背景场文献，帮助你从区域尺度理解长期应变率与块体边界变形。",
+      "notes": "人工补库于 2026/03/31",
+      "link": "https://doi.org/10.1007/s00190-024-01942-2"
     },
     {
       "index": "06",
@@ -131,14 +131,14 @@
         "secondary": "InSAR"
       },
       "priority": "固定",
-      "title": "Deep learning for tropospheric correction in large-scale InSAR interferograms",
-      "authors": "P. Rahimi, Q. Zhou, R. Naderi",
-      "venue": "Journal of Geodesy",
-      "date": "2025年10月15日",
-      "summary": "把深度学习方法放进 InSAR 前处理、反演或解释链路里，是方法补位的固定板块。 这篇尤其适合从 InSAR、深度学习 这些线索进入。",
-      "fit": "更偏 InSAR 前处理质量提升，适合放在方法链路前半段。",
-      "notes": "sample自动抓取于 2026/03/30",
-      "link": "https://doi.org/10.0000/sample-dl-1"
+      "title": "Autonomous extraction of millimeter-scale deformation in InSAR time series using deep learning",
+      "authors": "作者待补充",
+      "venue": "Nature Communications",
+      "date": "2021年11月10日",
+      "summary": "把深度学习直接用于 InSAR 时间序列的毫米级形变提取，是自动化发现长期弱信号的重要方法工作。",
+      "fit": "适合补足“深度学习如何进入时序 InSAR 自动分析”这一条方法线。",
+      "notes": "人工补库于 2026/03/31",
+      "link": "https://doi.org/10.1038/s41467-021-26254-3"
     },
     {
       "index": "07",
@@ -148,14 +148,14 @@
         "secondary": "InSAR"
       },
       "priority": "固定",
-      "title": "Neural inversion of seismic source parameters from satellite InSAR deformation fields",
-      "authors": "S. Jiang, T. Zhang, U. Lin",
-      "venue": "Tectonophysics",
-      "date": "2025年08月09日",
-      "summary": "把深度学习方法放进 InSAR 前处理、反演或解释链路里，是方法补位的固定板块。 这篇尤其适合从 InSAR、联合反演、深度学习 这些线索进入。",
-      "fit": "更接近源参数反演本体，适合补足“深度学习如何进入地震反演”的方法代表。",
-      "notes": "sample自动抓取于 2026/03/30",
-      "link": "https://doi.org/10.0000/sample-dl-2"
+      "title": "Deep Learning-Based Surface Deformation Mapping in InSAR Images Using Synthetic Training Data",
+      "authors": "作者待补充",
+      "venue": "Remote Sensing",
+      "date": "2023年05月03日",
+      "summary": "利用合成训练数据做 InSAR 形变制图，强调深度学习在样本不足条件下的泛化能力和工程可用性。",
+      "fit": "适合作为与前一篇互补的 DL + InSAR 文献，一篇偏时间序列自动提取，一篇偏形变识别与制图。",
+      "notes": "人工补库于 2026/03/31",
+      "link": "https://doi.org/10.3390/rs15092310"
     },
     {
       "index": "08",
@@ -165,14 +165,14 @@
         "secondary": "破裂动力学"
       },
       "priority": "补充",
-      "title": "Fault structure and high stress control supershear rupture in a large strike-slip earthquake",
-      "authors": "V. Chen, W. Xu, X. Bai",
-      "venue": "Nature Geoscience",
-      "date": "2026年01月06日",
-      "summary": "偏地震学与破裂动力学，能补强你对断层结构、应力积累和破裂传播的理解。 这篇尤其适合从 断层结构、应力 这些线索进入。",
-      "fit": "适合作为纯地震学补位文献，帮你把形变观测和破裂机制连接起来。",
-      "notes": "sample自动抓取于 2026/03/30",
-      "link": "https://doi.org/10.0000/sample-seismo-1"
+      "title": "Bimodal seismicity in the Himalaya controlled by fault friction and geometry",
+      "authors": "作者待补充",
+      "venue": "Nature Communications",
+      "date": "2018年12月13日",
+      "summary": "讨论喜马拉雅地震活动双峰分布如何受断层摩擦性质和几何控制，是连接观测地震性与断层力学的关键文章。",
+      "fit": "适合作为纯地震学补位文献，把地震性分布和主断层几何控制联系起来。",
+      "notes": "人工补库于 2026/03/31",
+      "link": "https://doi.org/10.1038/s41467-018-07874-8"
     },
     {
       "index": "09",
@@ -182,14 +182,14 @@
         "secondary": "活动构造"
       },
       "priority": "补充",
-      "title": "Active tectonics in the Himalayan foreland revealed by geomorphology and geophysical observations",
-      "authors": "Y. Nath, Z. Kumar, A. Chatterjee",
-      "venue": "Tectonophysics",
-      "date": "2026年03月05日",
-      "summary": "偏地质与活动构造，适合把浅表构造证据、断层几何和区域变形联系起来。 这篇尤其适合从 形貌构造 这些线索进入。",
-      "fit": "适合作为地质学补位文献，把 Himalaya、前陆变形和活动构造证据接起来。",
-      "notes": "sample自动抓取于 2026/03/30",
-      "link": "https://doi.org/10.0000/sample-tectonics-1"
+      "title": "Evidence of structural segmentation of the Uttarakhand Himalaya and its implications for earthquake hazard",
+      "authors": "A. S. N. Murty, Subhadeep Mukherjee, et al.",
+      "venue": "Scientific Reports",
+      "date": "2023年02月03日",
+      "summary": "从 Uttarakhand Himalaya 的结构分段出发讨论地震危险性，是把活动构造证据和断层分段框架接起来的一篇好文献。",
+      "fit": "适合作为今天的地质学补位，和前面的 coupling 与地震学条目形成闭环。",
+      "notes": "人工补库于 2026/03/31",
+      "link": "https://doi.org/10.1038/s41598-023-29432-z"
     }
   ]
 }
